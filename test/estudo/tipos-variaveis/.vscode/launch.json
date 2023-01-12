@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch OperadoresLogicos",
+      "request": "launch",
+      "mainClass": "OperadoresLogicos",
+      "projectName": "tipos-variaveis_b65189ef"
+    },
+    {
+      "type": "java",
+      "name": "Launch OperadorTernario",
+      "request": "launch",
+      "mainClass": "OperadorTernario",
+      "projectName": "tipos-variaveis_b65189ef"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operadores2",
+      "request": "launch",
+      "mainClass": "Operadores2",
+      "projectName": "tipos-variaveis_b65189ef"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operadores",
+      "request": "launch",
+      "mainClass": "Operadores",
+      "projectName": "tipos-variaveis_b65189ef"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
