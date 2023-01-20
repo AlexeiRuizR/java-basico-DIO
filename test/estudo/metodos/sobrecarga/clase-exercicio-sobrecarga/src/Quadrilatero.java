@@ -1,12 +1,15 @@
 public class Quadrilatero {
 
-  public static void area(double lado) {
-    System.out.println("El área del cuadrado es: " + lado*lado);
+  public static double area(double lado) {
+    double resultado = lado*lado;
+    return resultado;    
   }
-  public static void area(double lado1, double lado2) {
-    System.out.println("El área del rectangulo es: " + lado1*lado2);
-  }
-  public static void area(double baseMaior, double baseMenor, double altura) {
-    System.out.println("El área del trapecio es: " + altura*((baseMaior+baseMenor)/2));
+  public static double area(double lado1, double lado2) {
+    double resultado = lado1*lado2; // puedo poner return delante
+    return resultado;               // return (lado1 * lado2);
+  }                                 //y en el main declaro var resultado
+  public static double area(double baseMaior, double baseMenor, double altura) {
+    double resultado = altura*((baseMaior+baseMenor)/2);
+    return resultado;
   }
 }

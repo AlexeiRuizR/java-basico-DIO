@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) throws Exception {
         
-        Quadrilatero.area(6);
-        Quadrilatero.area(6, 5);
-        Quadrilatero.area(6, 4, 4);
+       System.out.println("El área del cuadrado es: " + Quadrilatero.area(6));
+       System.out.println("El área del rectangulo es: " + Quadrilatero.area(6, 5));
+       System.out.println("El área del trapecio es: " + Quadrilatero.area(6, 4, 4));
     }
 }
